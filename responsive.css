@@ -1,0 +1,71 @@
+/* Tablet */
+
+@media (max-width: 768px) {
+
+  .parentDiv{
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .inputDiv{
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .imageInput{
+    width: 100%;
+  }
+
+  .commonDesign{
+    font-size: 1rem;
+  }
+
+  .photoSection{
+    padding: 1rem;
+  }
+
+}
+/* Mobile */
+
+@media (max-width: 480px) {
+
+  nav{
+    padding: 0.8rem;
+  }
+
+  nav h1{
+    font-size: 1.2rem;
+  }
+
+  .parentDiv{
+    width: 95%;
+    padding: 0.8rem;
+  }
+
+  .inputDiv{
+    gap: 0.8rem;
+  }
+
+  .commonDesign{
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .photoSection{
+    grid-template-columns: 1fr;
+    padding: 0.5rem;
+  }
+
+  .photoSection img{
+    height: 220px;
+  }
+
+  .saveImageInnerDiv{
+    grid-template-columns: 1fr;
+  }
+
+  .saveImageDiv{
+    padding: 1rem;
+  }
+
+}

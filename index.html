@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+      integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
+  </head>
+  <body>
+    <main>
+
+      <!-- nav bar -->
+      <nav>
+        <h1>Image Gallery</h1>
+        <button class="themeButton commonDesign">Dark</button>
+      </nav>
+
+      <!--  image section where input and images show -->
+      <section class="parentDiv">
+
+        <!-- input section -->
+        <div class="inputDiv">
+          <label for="imageInput">
+            <input
+              type="text"
+              name="imageInput"
+              id="imageInput"
+              class="imageInput"
+              placeholder="Search here......"
+            />
+          </label>
+          <button class="searchButton commonDesign">Search</button>
+          <button class="saveButton commonDesign">Save</button>
+        </div>
+
+
+        <!-- image show section -->
+        <div class="photoSection">
+        </div>
+        <section class="outerDiv"></section>
+
+        <!-- previews next and current button -->
+        <button class="commonDesign" id="previewsButton">previews</button>
+        <button class="commonDesign" id="currentButton">1</button>
+        <button class="commonDesign" id="nextButton">next</button>
+      </section>
+
+      <!-- overlay div -->
+
+      <!-- save image section -->
+      <section class="saveImageDiv">
+        <div>
+          <button class="commonDesign backButton">Back</button>
+        </div>
+        <div class="saveImageInnerDiv"></div>
+              </section>
+    </main>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
