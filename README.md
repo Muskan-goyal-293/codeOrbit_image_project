@@ -70,7 +70,7 @@ codeOrbit-IMAGE-GALLERY/
 Open `index.html` in your browser.
 
 🔗 **Live Demo:** 
-
+https://muskan-goyal-293.github.io/codeOrbit_image_project/
 
 ## 👩‍💻 Author
 
